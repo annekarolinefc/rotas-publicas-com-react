@@ -9,10 +9,10 @@ function App() {
   return (
       <Router>
         <div className='App'>
-          <Link to='/'>Home</Link>
-          <Link to='/about'>Sobre</Link>
-          <Link to='/servicos'>Servicos</Link>
-          <Link to='/contato'>Contato</Link>
+          <Link className='links' to='/'>Home</Link>
+          <Link className='links' to='/about'>Sobre</Link>
+          <Link className='links' to='/servicos'>Servicos</Link>
+          <Link className='links' to='/contato'>Contato</Link>
         </div>
 
       <Switch>
